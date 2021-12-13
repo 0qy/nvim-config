@@ -19,4 +19,4 @@ tags
 [._]*.un~
 
 #plug in dir
-plugged/*
+autoload/plugged/*
