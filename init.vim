@@ -1,6 +1,3 @@
-"Show line number
-set number
-
 "curl -fLO $HOME/.config/nvim/autoload/plug.vim --create-dirs \
 " https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -25,6 +22,17 @@ call plug#end()
 
 colorscheme gruvbox
 map <silent> <C-n> :NERDTreeFocus<CR>
+
+filetype plugin indent on   "required
+syntax on
+set background=dark
+set number
+set nowrap
+set smartcase
+set hlsearch
+set noerrorbells
+set smartindent
+
 map <C-s> :eslint.executeAutofix<CR>
 
 "prettier setup
